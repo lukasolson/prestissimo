@@ -5,7 +5,7 @@ PRESTissimo is a minimal framework for building APIs utilizing PHP, MySQL and JS
 ## Quick Start
 
 PRESTissimo is made for getting up and started as quickly as possible. Because of this, there are very few configuration options. Here's how to get started:
-Test
+
 1. Upload everything to your server that already has PHP and MySQL installed.
 2. Open `utils/db_utils.php` and modify `username`, `password`, and `database_name` to match your MySQL username/password and database.
 3. Open `router.php` and modify the `base_url` to the local URL where your API will reside (e.g., for http://example.com/api/, it would be "/api/").
