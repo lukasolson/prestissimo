@@ -1,0 +1,4 @@
+RewriteEngine on
+
+# Route all requests through router.php
+RewriteRule ^(.*)$ router.php
